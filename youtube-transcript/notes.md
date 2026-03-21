@@ -2,6 +2,6 @@
 
 https://github.com/badlogic/pi-skills/tree/main
 
-# Chandelog
+# Changelog
 
 - Исправлен перевод времени
