@@ -40,6 +40,12 @@
 
 Документация: [skills.sh/docs](https://skills.sh/docs) · [CLI](https://github.com/vercel-labs/skills)
 
+### gccli
+
+Google Calendar из терминала: список календарей, просмотр/создание/правка/удаление событий, ACL и проверка занятости (`freebusy`). Авторизация — через собственный OAuth-клиент Google Cloud (Desktop app), токены хранятся локально в `~/.gccli/`.
+
+Документация: [npm](https://www.npmjs.com/package/@mariozechner/gccli) · [Google Calendar API](https://developers.google.com/workspace/calendar/api)
+
 ### youtube-transcript
 
 Достаёт транскрипт YouTube-видео (ручные или авто-субтитры) с таймкодами — для конспектов, цитирования и анализа содержания.

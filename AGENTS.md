@@ -4,7 +4,7 @@ Instructions for AI agents who want to install the skills in this repository the
 
 ## What this is
 
-This repository is a collection of skills: every top-level folder (`archify`, `cq`, `curl`, `ddgs`, `find-skills`, `youtube-transcript`) contains a `SKILL.md` with instructions for the agent. Short descriptions and documentation links are in [README.md](README.md).
+This repository is a collection of skills: every top-level folder contains a `SKILL.md` with instructions for the agent. Short descriptions and documentation links are in [README.md](README.md).
 
 The invariant to preserve: after installation the skills must end up in the directory your harness reads, as `<skills-dir>/<skill>/SKILL.md`.
 
@@ -52,12 +52,7 @@ Choose the directory yourself — just make sure your harness actually scans it:
 
 ## Skill dependencies
 
-- **archify** — Node.js >= 18.
-- **cq** — a local cq MCP server (see [docs](https://github.com/mozilla-ai/cq/tree/main/docs)); without it the `query`/`propose` tools are unavailable.
-- **curl** — `curl` and `pandoc`.
-- **ddgs** — `uv` (launched via `uvx`).
-- **find-skills** — `npx skills` (Node.js).
-- **youtube-transcript** — Node.js; run `npm install` once inside the skill folder.
+Dependencies are skill-specific: check the relevant `SKILL.md` before installing, install only what it requires, and tell the user what still has to be done manually.
 
 ## Rules
 
